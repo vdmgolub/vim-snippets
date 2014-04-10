@@ -1,2 +1,4 @@
-vim-snippets
-============
+# Snipmate snippets
+
+## Snippets for:
+  - Mustache/handlebars
