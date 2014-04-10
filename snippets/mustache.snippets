@@ -1,0 +1,33 @@
+snippet ##
+	{{#${1:helper}}}
+		${0}
+	{{/$1}}
+snippet #a
+	{{#${1:helper} ${2:args}}}
+		${0}
+	{{/$1}}
+snippet #e
+	{{#each${1: args}}}
+		${0}
+	{{/each}}
+snippet #if
+	{{#if ${1:condition}}}
+		${2}
+	{{/if}}
+snippet #ife
+	{{#if ${1:condition}}}
+		${2}
+	{{else}}
+		${0}
+	{{/if}}
+snippet #un
+	{{#unless ${1:condition}}}
+		${2}
+	{{/unless}}
+snippet #!
+	{{! ${1:comment here} }}
+snippet #!!
+	{{!-- ${1:comment here} --}}
+# EmberJS related
+snippet #link
+	{{#link-to}}${0}{{/link-to}}
